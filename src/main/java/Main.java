@@ -8,8 +8,8 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.meta.generics.TelegramBot;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws TelegramApiException {
